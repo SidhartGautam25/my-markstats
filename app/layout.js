@@ -1,3 +1,5 @@
+import Head from 'next/head'
+import Link from 'next/link'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -11,6 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head><Link rel="preconnect" href="https://fonts.googleapis.com"/>
+<Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<Link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap" rel="stylesheet"/></Head>
       <body className={inter.className}>{children}</body>
     </html>
   )

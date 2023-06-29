@@ -1,0 +1,46 @@
+.navmain{
+    color:white;
+    width:100vw;
+    height:10vh;
+    /*border:2px solid green;*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navitemsdiv{
+    display: flex;
+    width:100vw;
+    height:100%;
+    /*border:2px solid pink;*/
+    flex-direction: row;
+}
+.liitems{
+    width:10%;
+    height:100%;
+    /*border:2px solid blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vh;
+}
+.liitems:hover{
+    font-size: 2.7vh;
+    color:rgb(179, 178, 178);
+    
+}
+.navlogo{
+    width:10%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right:3vw ;
+    /*border:2px solid white;*/
+    font-size: 3vh;
+   
+}
+.navlogo:hover{
+    font-size:3.2vh;
+    color:rgb(164, 159, 159);
+}
