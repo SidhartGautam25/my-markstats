@@ -1,15 +1,18 @@
 .scompmain{
     width:100vw;
-    height:57vh;
+    height:75vh;
     /*border:2px solid blue;*/
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(../../../public/backg10.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .scomptitle{
     width:60vw;
-    height:10vh;
+    height:15vh;
     /*border:2px solid green;*/
     font-size: 1.5rem;
     font-weight: 500;
@@ -18,13 +21,13 @@
     align-items: center;
 }
 .scompimp{
-    height:44vh;
-    width:70vw;
+    height:65vh;
+    width:80vw;
     /*border:2px solid red;*/
    
 }
 .scomptop{
-    height:7vh;
+    height:8vh;
     width:100%;
     /*border:2px solid yellow;*/
     display: flex;
@@ -50,7 +53,7 @@
 
 }
 .scompbottom{
-    height:35vh;
+    height:45vh;
     width:100%;
     /*border:2px solid orange;*/
     display: flex;
@@ -70,6 +73,8 @@
     height:95%;
     width:64%;
     /*border:2px solid green;*/
+    padding:5px;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -3,6 +3,9 @@
     height:68rem;
     width:100%;
     /*background-image: linear-gradient(rgb(40, 39, 39),white,white,white,white,white,white,white,white,white,rgb(36, 35, 35));*/
+    background-image: url(../../../public/backg6.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .cardholder{
     /*border:2px solid blue;*/
