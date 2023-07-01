@@ -1,7 +1,7 @@
 .cardmain{
     height:27rem;
     width:23%;
-    /*border:2px solid blue;*/
+    /* border:2px solid blue; */
     border-radius: 10px;
     margin: 5px;
     /*background-color: black;*/
@@ -19,7 +19,7 @@
 .cardimg{
     height:60%;
     width:98%;
-   /*border:2px solid green;*/
+   /* border:2px solid green; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     /*background-image: url(../../../public/automotiveindustrymarketresearch.jpg);*/
@@ -33,7 +33,7 @@
     width:98%;
     padding: 1rem;
     padding: 1rem;
-    /*border:2px solid rgb(236, 21, 179);*/
+    /* border:2px solid rgb(236, 21, 179); */
     /*color:white;*/
     font-size: 1.3rem;
     font-weight: 500;
@@ -48,7 +48,22 @@
     font-weight: 200;
     /*color:white;*/
     
-    /*border:2px solid rgb(246, 10, 10);*/
+    /* border:2px solid rgb(246, 10, 10); */
+}
+
+
+@media (max-width:480px) {
+   .cardmain{
+    width:95%;
+
+   }
+   .cardtitle{
+    justify-content: center;
+   }
+   .carddes{
+    display: flex;
+    justify-content: center;
+   }
 }
 
 

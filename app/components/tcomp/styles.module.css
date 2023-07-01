@@ -1,113 +1,172 @@
-.fcompmain{
-    /*border:2px solid rgb(151, 67, 67);*/
-    height:45rem;
-    width:100%;
-    /*background-image: linear-gradient(rgb(40, 39, 39),white,white,white,white,white,white,white,white,white,rgb(36, 35, 35));*/
-    /*background-color: rgb(229, 232, 232 );*/
-    /*background-image: url(../../../public/back1.jpg);*/
-    
+.fcompmain {
+  /*border:2px solid rgb(151, 67, 67);*/
+  height: 45rem;
+  width: 100%;
+  /*background-image: linear-gradient(rgb(40, 39, 39),white,white,white,white,white,white,white,white,white,rgb(36, 35, 35));*/
+  /*background-color: rgb(229, 232, 232 );*/
+  /*background-image: url(../../../public/back1.jpg);*/
 }
-.cardholder{
-    /*border:2px solid rgb(24, 217, 89);*/
-    border-radius: 10px;
-    margin:10px;
-    height:17rem;
-    width:98%;
+.cardholder {
+  /*border:2px solid rgb(24, 217, 89);*/
+  border-radius: 10px;
+  margin: 10px;
+  height: 17rem;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  /*border:2px solid green;*/
+  padding: 1rem;
+  margin: 5px;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.titleint {
+  /*border-bottom:5px solid rgb(38, 4, 174);*/
+  border-radius: 10px;
+  height: 3.5rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;*/
+}
+.compcard1 {
+  /*border:2px solid blue;*/
+  height: 98%;
+  width: 31%;
+  background-image: url(../../../public/ind1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.compcard2 {
+  /*border:2px solid blue;*/
+  height: 98%;
+  width: 31%;
+  background-image: url(../../../public/ind2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.compcard3 {
+  /*border:2px solid blue;*/
+  height: 98%;
+  width: 31%;
+  background-image: url(../../../public/ind3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.compcard4 {
+  /*border:2px solid blue;*/
+  height: 98%;
+  width: 31%;
+  background-image: url(../../../public/ind4.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.compcard5 {
+  /*border:2px solid blue;*/
+  height: 98%;
+  width: 31%;
+  background-image: url(../../../public/ind5.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+  /*border:1px solid rgb(252, 251, 251);*/
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.compcard6 {
+  /*border:2px solid blue;*/
+  height: 98%;
+  width: 31%;
+  background-image: url(../../../public/ind6.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3px;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media (max-width: 480px) {
+  .titleint {
+    width: 20rem;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+  .cardholder {
+    width: 98%;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.title{
-    /*border:2px solid green;*/
-    padding: 1rem;
-    margin:5px;
-    height:5rem;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    font-weight: 500;
-}
-.titleint{
-    /*border-bottom:5px solid rgb(38, 4, 174);*/
-    border-radius: 10px;
-    height:3.5rem;
-    width:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;*/
-}
-.compcard1{
-    /*border:2px solid blue;*/
-    height:98%;
-    width:31%;
-    background-image: url(../../../public/ind1.jpg);
-    background-size: cover;
-    background-position: center;
-    margin:3px;
-    border:1px solid rgb(252, 251, 251);
-    border-radius: 5px ;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.compcard2{
-    /*border:2px solid blue;*/
-    height:98%;
-    width:31%;
-    background-image: url(../../../public/ind2.jpg);
-    background-size: cover;
-    background-position: center;
-    margin:3px;
-    border:1px solid rgb(252, 251, 251);
-    border-radius: 5px ;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.compcard3{
-    /*border:2px solid blue;*/
-    height:98%;
-    width:31%;
-    background-image: url(../../../public/ind3.jpg);
-    background-size: cover;
-    background-position: center;
-    margin:3px;
-    border:1px solid rgb(252, 251, 251);
-    border-radius: 5px ;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.compcard4{
-    /*border:2px solid blue;*/
-    height:98%;
-    width:31%;
-    background-image: url(../../../public/ind4.jpg);
-    background-size: cover;
-    background-position: center;
-    margin:3px;
-    border:1px solid rgb(252, 251, 251);
-    border-radius: 5px ;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.compcard5{
-    /*border:2px solid blue;*/
-    height:98%;
-    width:31%;
-    background-image: url(../../../public/ind5.jpg);
-    background-size: cover;
-    background-position: center;
-    margin:3px;
-    /*border:1px solid rgb(252, 251, 251);*/
-    border-radius: 5px ;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.compcard6{
-    /*border:2px solid blue;*/
-    height:98%;
-    width:31%;
-    background-image: url(../../../public/ind6.jpg);
-    background-size: cover;
-    background-position: center;
-    margin:3px;
-    border:1px solid rgb(252, 251, 251);
-    border-radius: 5px ;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    flex-direction: column;
+  }
+
+  .compcard1 {
+    height: 20rem;
+    width: 97%;
+  }
+  .compcard2 {
+    height: 20rem;
+    width: 97%;
+  }
+
+  .compcard3 {
+    height: 20rem;
+    width: 97%;
+  }
+
+  .compcard4 {
+    height: 20rem;
+    width: 97%;
+  }
+
+  .compcard5 {
+    height: 20rem;
+    width: 97%;
+  }
+  .compcard1 {
+    height: 20rem;
+    width: 97%;
+  }
+  .fcompmain {
+    width: 98%;
+    height: auto;
+  }
 }
