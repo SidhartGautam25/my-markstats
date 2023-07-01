@@ -1,68 +1,63 @@
-.fcompmain{
-    /*border:2px solid black;*/
-    height:68rem;
-    width:100%;
-    /*background-image: linear-gradient(rgb(40, 39, 39),white,white,white,white,white,white,white,white,white,rgb(36, 35, 35));*/
-    background-image: url(../../../public/backg6.jpg);
-    background-size: cover;
-    background-position: center;
+.fcompmain {
+  /*border:2px solid black;*/
+  height: 68rem;
+  width: 100%;
+  /*background-image: linear-gradient(rgb(40, 39, 39),white,white,white,white,white,white,white,white,white,rgb(36, 35, 35));*/
+  background-image: url(../../../public/backg6.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.cardholder{
-    /* border:2px solid blue; */
-    border-radius: 10px;
-    height:28rem;
-    width:100%;
+.cardholder {
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  height: 28rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  /*border:2px solid green;*/
+  padding: 1rem;
+  margin: 5px;
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.titleint {
+  border-bottom: 5px solid rgb(3, 99, 114);
+  border-radius: 1rem;
+  height: 3.5rem;
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .titleint {
+    width: 20rem;
+    font-size: 1.5rem;
+  }
+  .fcompmain {
+    width: 98%;
+    height: auto;
+  }
+  .cardholder {
+    width: 100%;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.title{
-    /*border:2px solid green;*/
-    padding: 1rem;
-    margin:5px;
-    height:7rem;
-    width:100%;
-    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    font-weight: 500;
-}
-.titleint{
-    border-bottom:5px solid rgb(3, 99, 114);
-    border-radius: 1rem;
-    height:3.5rem;
-    width:35rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  }
 
-
-
-
-
-
-
-@media (max-width:480px){
-    .titleint {
-            width: 20rem;
-            font-size: 1.5rem;
-        }
-    .fcompmain{
-        width:98%;
-        height:auto;
-        
-    }
-    .cardholder{
-        width:100%;
-        height:auto;
-        display:flex;
-        flex-direction: column;
-    }
-    
-    .title{
-        padding: 0;
-        margin: 0;
-    }
+  .title {
+    padding: 0;
+    margin: 0;
+  }
 }

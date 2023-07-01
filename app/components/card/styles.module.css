@@ -1,70 +1,68 @@
-.cardmain{
-    height:27rem;
-    width:23%;
-    /* border:2px solid blue; */
-    border-radius: 10px;
-    margin: 5px;
-    /*background-color: black;*/
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    overflow: hidden;
-    background-color: white;
+.cardmain {
+  height: 27rem;
+  width: 23%;
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  margin: 5px;
+  /*background-color: black;*/
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardrank {
+  border: 2px solid blue;
+}
+.cardmain:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardimg {
+  height: 60%;
+  width: 98%;
+  /* border:2px solid green; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /*background-image: url(../../../public/automotiveindustrymarketresearch.jpg);*/
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.cardtitle {
+  height: 1.1rem;
+  width: 98%;
+  padding: 1rem;
+  padding: 1rem;
+  /* border:2px solid rgb(236, 21, 179); */
+  /*color:white;*/
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.carddes {
+  padding-left: 1rem;
+  height: 25%;
+  width: 95%;
+  font-size: 1.1rem;
+  font-weight: 200;
+  /*color:white;*/
 
-}
-.cardrank{
-    border:2px solid blue;
-}
-.cardmain:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.cardimg{
-    height:60%;
-    width:98%;
-   /* border:2px solid green; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    /*background-image: url(../../../public/automotiveindustrymarketresearch.jpg);*/
-    background-size: cover;
-    background-position: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-
-}
-.cardtitle{
-    height:1.1rem;
-    width:98%;
-    padding: 1rem;
-    padding: 1rem;
-    /* border:2px solid rgb(236, 21, 179); */
-    /*color:white;*/
-    font-size: 1.3rem;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-}
-.carddes{
-    padding-left: 1rem;
-    height:25%;
-    width:95%;
-    font-size: 1.1rem;
-    font-weight: 200;
-    /*color:white;*/
-    
-    /* border:2px solid rgb(246, 10, 10); */
+  /* border:2px solid rgb(246, 10, 10); */
 }
 
-
-@media (max-width:480px) {
-   .cardmain{
-    width:95%;
-
-   }
-   .cardtitle{
+@media (max-width: 480px) {
+  .cardmain {
+    width: 98%;
+  }
+  .cardtitle {
     justify-content: center;
-   }
-   .carddes{
+  }
+  .carddes {
     display: flex;
     justify-content: center;
-   }
+  }
 }
-
-
-
