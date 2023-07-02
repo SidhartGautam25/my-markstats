@@ -17,30 +17,21 @@ export default function Tcomp() {
                 <div className={styles.compcard1}>
                     <div className={styles.afterhover}>
                         <div className={styles.afterhovertitle}>first Industry</div>
-                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <div className={styles.afterhoverdes}>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                     </div>
                 </div>
                 <div className={styles.compcard2}>
                 <div className={styles.afterhover}>
                         <div className={styles.afterhovertitle}>Second Industry</div>
-                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <div className={styles.afterhoverdes}>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                     </div>
                 </div>
                 <div className={styles.compcard3}>
                 <div className={styles.afterhover}>
                         <div className={styles.afterhovertitle}>third Industry</div>
-                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <div className={styles.afterhoverdes}>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                     </div>
                 </div>
@@ -49,30 +40,21 @@ export default function Tcomp() {
                 <div className={styles.compcard4}>
                 <div className={styles.afterhover}>
                         <div className={styles.afterhovertitle}>fourth Industry</div>
-                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                     </div>
                 </div>
                 <div className={styles.compcard5}>
                 <div className={styles.afterhover}>
                         <div className={styles.afterhovertitle}>fifth Industry</div>
-                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                     </div>
                 </div>
                 <div className={styles.compcard6}>
                 <div className={styles.afterhover}>
                         <div className={styles.afterhovertitle}>sixth Industry</div>
-                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <div className={styles.afterhoverdes}>"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                     </div>
                 </div>
