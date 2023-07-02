@@ -48,6 +48,9 @@
   margin: 3px;
   border: 1px solid rgb(252, 251, 251);
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -61,6 +64,9 @@
   margin: 3px;
   border: 1px solid rgb(252, 251, 251);
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -74,6 +80,9 @@
   margin: 3px;
   border: 1px solid rgb(252, 251, 251);
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -87,6 +96,9 @@
   margin: 3px;
   border: 1px solid rgb(252, 251, 251);
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -100,6 +112,9 @@
   margin: 3px;
   /*border:1px solid rgb(252, 251, 251);*/
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -113,9 +128,78 @@
   margin: 3px;
   border: 1px solid rgb(252, 251, 251);
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
+.afterhover{
+  background-color: rgba(0,0,0,0.5);
+  width:100%;
+  height:0%;
+  /* border:2px solid red; */
+  overflow:hidden;
+  transition: height 1s;
+  color: white;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+
+}
+.compcard1:hover .afterhover{
+  height:100%;
+  /* border:2px solid blue; */
+
+}
+.compcard2:hover .afterhover{
+  height:100%;
+  /* border:2px solid blue; */
+
+}
+.compcard3:hover .afterhover{
+  height:100%;
+  /* border:2px solid blue; */
+
+}
+.compcard4:hover .afterhover{
+  height:100%;
+  /* border:2px solid blue; */
+
+}
+.compcard5:hover .afterhover{
+  height:100%;
+  /* border:2px solid blue; */
+
+}
+.compcard6:hover .afterhover{
+  height:100%;
+  /* border:2px solid blue; */
+
+}
+.afterhovertitle{
+  /* border:1px solid yellow; */
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding:3px;
+}
+.afterhoverdes{
+  /* border:1px solid orange; */
+  font-size:1rem;
+  font-weight: 200;
+  margin-left: 5px;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 480px) {
   .titleint {
