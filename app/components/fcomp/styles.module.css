@@ -1,5 +1,5 @@
 .fcompmain {
-  /*border:2px solid black;*/
+  /* border: 2px solid black; */
   height: 68rem;
   width: 100%;
   /*background-image: linear-gradient(rgb(40, 39, 39),white,white,white,white,white,white,white,white,white,rgb(36, 35, 35));*/
@@ -17,7 +17,7 @@
   justify-content: center;
 }
 .title {
-  /*border:2px solid green;*/
+  /* border: 2px solid green; */
   padding: 1rem;
   margin: 5px;
   height: 7rem;

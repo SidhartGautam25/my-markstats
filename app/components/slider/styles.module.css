@@ -1,0 +1,43 @@
+.slidermain {
+  height: 300px;
+  width: 100%;
+}
+.slider {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 98%;
+  height: 200px;
+  margin: auto;
+}
+.ourclients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slidercom {
+  width: 250px;
+  height: 200px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.logoimg {
+  height: 250px;
+  width: 250px;
+}
+.slidertrack {
+  display: flex;
+  width: calc(250px * 12);
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}

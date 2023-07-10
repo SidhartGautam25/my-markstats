@@ -126,7 +126,7 @@
   background-size: cover;
   background-position: center;
   margin: 3px;
-  border: 1px solid rgb(252, 251, 251);
+  /* border: 1px solid rgb(252, 251, 251); */
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -138,68 +138,54 @@
 .afterhover{
   background-color: rgba(0,0,0,0.5);
   width:100%;
-  height:12%;
+  height:0%;
   /* border:2px solid red; */
-  overflow:hidden;
+  overflow: hidden;
   transition: height 1s;
   color: white;
   border-radius: 5px;
-  display:flex;
+  display: flex;
   flex-direction: column;
-
 }
-.compcard1:hover .afterhover{
-  height:100%;
+.compcard1:hover .afterhover {
+  height: 100%;
   /* border:2px solid blue; */
-
 }
-.compcard2:hover .afterhover{
-  height:100%;
+.compcard2:hover .afterhover {
+  height: 100%;
   /* border:2px solid blue; */
-
 }
-.compcard3:hover .afterhover{
-  height:100%;
+.compcard3:hover .afterhover {
+  height: 100%;
   /* border:2px solid blue; */
-
 }
-.compcard4:hover .afterhover{
-  height:100%;
+.compcard4:hover .afterhover {
+  height: 100%;
   /* border:2px solid blue; */
-
 }
-.compcard5:hover .afterhover{
-  height:100%;
+.compcard5:hover .afterhover {
+  height: 100%;
   /* border:2px solid blue; */
-
 }
-.compcard6:hover .afterhover{
-  height:100%;
+.compcard6:hover .afterhover {
+  height: 100%;
   /* border:2px solid blue; */
-
 }
-.afterhovertitle{
+.afterhovertitle {
   /* border:1px solid yellow; */
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
-  padding:3px;
+  padding: 3px;
 }
-.afterhoverdes{
+.afterhoverdes {
   /* border:1px solid orange; */
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: 200;
   margin-left: 5px;
   text-align: center;
 }
-
-
-
-
-
-
-
 
 @media (max-width: 480px) {
   .titleint {
@@ -242,6 +228,10 @@
   }
 
   .compcard5 {
+    height: 20rem;
+    width: 97%;
+  }
+  .compcard6 {
     height: 20rem;
     width: 97%;
   }
