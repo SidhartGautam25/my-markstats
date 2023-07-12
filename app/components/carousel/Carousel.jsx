@@ -12,26 +12,28 @@ import img2 from "../../../public/img2.jpg";
 import img3 from "../../../public/img3.jpg";
 import img4 from "../../../public/img4.jpg";
 import res1 from "../../../public/res1.jpg";
-import res2 from "../../../public/res2.jpg";
-import res3 from "../../../public/res3.jpg";
-import res4 from "../../../public/res4.jpg";
-import res5 from "../../../public/res5.jpg";
-import res6 from "../../../public/res6.jpg";
-import res7 from "../../../public/res7.jpg";
-import res8 from "../../../public/res8.jpg";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+// import res2 from "../../../public/res2.jpg";
+// import res3 from "../../../public/res3.jpg";
+// import res4 from "../../../public/res4.jpg";
+// import res5 from "../../../public/res5.jpg";
+// import res6 from "../../../public/res6.jpg";
+// import res7 from "../../../public/res7.jpg";
+// import res8 from "../../../public/res8.jpg";
+import { useLayoutEffect, useRef, useState } from "react";
 
 export default function Carousel() {
   // const [isdragStart, setIsdragStart] = useState(false);
   const carousel = useRef();
   const arrowicons = useRef();
   const firstimg = useRef();
-  console.log("clientWidth");
+  // console.log("clientWidth");
   //console.log(firstimg.current.offsetWidth);
   const [firstimagewidth, setFirstimagewidth] = useState(0);
   useLayoutEffect(() => {
-    setFirstimagewidth(firstimg.current.offsetWidth + 14);
+    setFirstimagewidth(firstimg.current.offsetWidth + 16);
   }, []);
+
+  // const arrowIcons = useRef();
 
   // arrowIcons.current.forEach((icon) => {
   //   icon.addEventlistner("click", () => {
@@ -49,6 +51,17 @@ export default function Carousel() {
     carousel.current.scrollLeft -= firstimagewidth;
   };
 
+  // const infiniteScroll = () => {
+  //   if (carousel.scrollLeft === 0) {
+  //     carousel.current.scrollLeft =
+  //       carousel.scrollWidth - 2 * carousel.offsetWidth;
+  //   } else if (
+  //     Math.ceil(carousel.scrollLeft) ===
+  //     carousel.scrollWidth - carousel.offsetWidth
+  //   ) {
+  //     carousel.current.scrollLeft = carousel.offsetWidth;
+  //   }
+  // };
   // const dragStart = () => {
   //   setIsdragStart(true);
   // };
@@ -76,35 +89,111 @@ export default function Carousel() {
             src={arrow}
             ref={arrowicons}
           />
-          <div
+          <ul
             // onMouseMoveCapture={runfunction}
             // onMouseDownCapture={dragStart}
             // onMouseUpCapture={dragStop}
+            // scrollTop={infiniteScroll}
             className={styles.carousel}
             ref={carousel}
           >
-            <Image className={styles.logoimg} src={ind1} ref={firstimg} />
-            <Image className={styles.logoimg} src={ind2} />
-            <Image className={styles.logoimg} src={ind3} />
-            <Image className={styles.logoimg} src={ind4} />
-            <Image className={styles.logoimg} src={img1} />
-            <Image className={styles.logoimg} src={img2} />
-            <Image className={styles.logoimg} src={img3} />
-            <Image className={styles.logoimg} src={img4} />
-            <Image className={styles.logoimg} src={res1} />
-            <Image className={styles.logoimg} src={res2} />
-            <Image className={styles.logoimg} src={res3} />
-            <Image className={styles.logoimg} src={res4} />
-            <Image className={styles.logoimg} src={res5} />
-            <Image className={styles.logoimg} src={res6} />
-            <Image className={styles.logoimg} src={res7} />
-            <Image className={styles.logoimg} src={res8} />
-          </div>
+            {/* <Image className={styles.logoimg} src={ind1} ref={firstimg} /> */}
+            <li className={styles.card} ref={firstimg}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={ind1} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet the consectetur adipisicing elit.the
+                Totam, non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={ind2} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={ind3} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={ind4} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={img1} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={img2} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={img3} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={img4} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+            <li className={styles.card}>
+              <div className={styles.img}>
+                <Image className={styles.logoimg} src={res1} />
+              </div>
+              <h2>title of page</h2>
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                non!
+              </span>
+            </li>
+          </ul>
           <Image
             className={styles.arrowimg}
             onClick={arrowClickright}
             src={right}
-            ref={arrowicons}
+            // ref={arrowicons}
           />
         </div>
       </div>
