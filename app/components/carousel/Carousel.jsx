@@ -43,12 +43,12 @@ export default function Carousel() {
 
   const arrowClickleft = () => {
     // console.log("clicked");
-    carousel.current.scrollLeft += firstimagewidth;
+    carousel.current.scrollLeft -= firstimagewidth;
   };
 
   const arrowClickright = () => {
     // console.log("clicked");
-    carousel.current.scrollLeft -= firstimagewidth;
+    carousel.current.scrollLeft += firstimagewidth;
   };
 
   // const infiniteScroll = () => {
